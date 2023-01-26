@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tags de Agrupamento</title>
+  </head>
+  <style>
+    body {
+      background-color: antiquewhite;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+    }
+
+    header {
+      background-color: rgb(152, 166, 191);
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px 3px rgba(2, 2, 2, 0.432);
+    }
+
+    nav {
+      background-color: white;
+      padding: 5px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+      border-radius: 5px;
+    }
+
+    nav > a {
+      text-decoration: none;
+      color: red;
+      font-weight: bold;
+
+    }
+    nav > a:hover {
+      text-decoration: underline;
+      margin-right: 60px;
+    }
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px 3px rgba(2, 2, 2, 0.432);
+    }
+    article {
+      color: red;
+      background-color: rgb(242, 192, 192);
+      padding: 5px;
+    }
+    article > aside {
+      color: white;
+      background-color: blueviolet;
+      border-radius: 5px;
+      text-align: start;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      margin: 0px;
+      border-radius: 5px;
+      
+    }
+    footer > p{
+      margin: 0px;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <section id="noticias">
+        <article>
+          <h2>Noticias do Brasil</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+            eligendi deleniti similique nulla labore aperiam necessitatibus
+            architecto, nisi libero non nihil repudiandae, accusamus eaque
+            sapiente earum sunt voluptatem facilis! Vero. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Minus architecto laborum,
+            voluptatum distinctio libero autem facilis recusandae, asperiores
+            ipsum itaque pariatur deleniti ratione ipsam nisi vero nemo labore!
+            Illo, suscipit.
+          </p>
+          <aside>
+            <p>Artigo escrito por José da Silva</p>
+          </aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolviento em html e css</p>
+    </footer>
+  </body>
+</html>
